@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【求人】放課後等デイサービス 太陽の花 スタッフ募集 | 合同会社TULA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['"Noto Sans JP"', 'sans-serif'] },
+                    colors: {
+                        brand: { light: '#FFF3E0', DEFAULT: '#FF9800', dark: '#F57C00', text: '#E65100' },
+                        accent: { DEFAULT: '#4CAF50', light: '#E8F5E9' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .section-title::after { content: ''; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%); width: 60px; height: 4px; background-color: #FF9800; }
+        .job-table th { background-color: #FFF3E0; color: #E65100; width: 30%; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- ヘッダー -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <span class="font-bold text-xl text-brand">太陽の花</span>
+            <a href="#entry" class="bg-brand text-white px-6 py-2 rounded-full font-bold hover:bg-brand-dark transition">応募する</a>
+        </div>
+    </header>
+
+    <!-- ヒーロー -->
+    <section class="py-20 bg-brand-light text-center">
+        <h1 class="text-3xl md:text-5xl font-black mb-6">子どもたちの「できた！」を<br>一緒に喜べる仲間へ</h1>
+        <div class="max-w-xl mx-auto mb-10 overflow-hidden rounded-2xl shadow-lg">
+            <img src="IMG_9268.jpg" alt="活動風景" class="w-full h-64 object-cover">
+        </div>
+        <div class="inline-block bg-white px-6 py-3 rounded-full font-bold text-brand shadow-md">
+            <i class="fa-solid fa-calendar-check mr-2"></i>年間休日125日以上 ◎ 業務システムHUG導入で効率化
+        </div>
+        
+        <!-- 認定ロゴエリア -->
+        <div class="mt-8 flex justify-center">
+            <div class="bg-white p-3 rounded-xl shadow-sm border border-brand/20 inline-flex items-center gap-3">
+                <img src="エンゲージ保育士④b.png" alt="群馬・介護福祉人材育成宣言事業者認定ロゴ" class="h-16 w-16 object-contain">
+                <span class="text-sm font-bold text-gray-700 text-left">群馬県認定<br>介護・福祉人材育成宣言事業者</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 活動の風景ギャラリー -->
+    <section class="py-10 bg-white">
+        <div class="container mx-auto px-4 max-w-4xl">
+            <div class="grid md:grid-cols-2 gap-6">
+                <img src="IMG_9245.jpg" alt="活動1" class="rounded-2xl shadow-lg w-full h-80 object-cover">
+                <img src="IMG_9268.jpg" alt="活動2" class="rounded-2xl shadow-lg w-full h-80 object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- 募集メッセージ・要項などは適宜必要に応じて展開してください -->
+    <footer class="bg-gray-800 text-white py-10 text-center">
+        <p>&copy; 2026 太陽の花 All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
